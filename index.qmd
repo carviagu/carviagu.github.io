@@ -1,3 +1,12 @@
+---
+title: "welcome page"
+---
 
-# Bienvenido!
+# Welcome!
+
+This is my official page powered with Quarto and GitHub pages.
+
+Navigate through my courses here!
+
+
 

@@ -12,6 +12,8 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
+      - href: courses.qmd
+        text: Courses
 
 format:
   html:
