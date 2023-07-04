@@ -1,0 +1,25 @@
+---
+title: "Computer Logic"
+date: "2023-01-30"
+categories: [logic, Prolog, engineering, spanish]
+image: "featured.png"
+---
+
+
+# Overview
+Course held at CUNEF Univesidad Bachelor in Computer Science first year. 
+The aim of the course is to provide students with the basic concepts of computer logic to learn how to approach different computing problems. 
+
+Editions: 2022-23, 2023-24
+
+## Topics Covered
+ - Propositional Logic: language syntax, sentence formulating, deduction and tableaux solution algorithm.
+ 
+ - First-Order Logic: language syntax, sentence formulating, deduction and tableaux solution algorithm.
+ 
+ - Prolog Progamming: understanding of logical programming paradigm and learn how to develop simple knowledge base systems with prolog. 
+ 
+## Course Site
+Course site not available by the moment, we are cleaning a bit.
+ 
+

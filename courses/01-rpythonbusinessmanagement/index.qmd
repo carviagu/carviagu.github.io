@@ -1,0 +1,21 @@
+---
+title: "R & Python for Business and Management"
+date: "2022-09-01"
+categories: [programming, R, Python, business, english]
+image: "featured.png"
+---
+
+
+# Overview
+Course held for at CUNEF Univesidad Bachelor in Business Management second year as part of the Minor in Data Science elective path.
+The aim of the course is to provide student with the basic concepts of R and Python programming languages focusing on data analytics so they can have the essential skills needed for future subjects related with the field. 
+
+## Topics Covered
+ - Programming in R: R and RStudio basics, data types, programming structures, data importing, tidyverse, visualization with ggplot2 and advance programming (functions and purrr library)
+ 
+ - Programming in Python: Python (Anaconda and Jupyter) basics, data types, programming structures, pandas for data analytics, visualization with mathplotlib, advance topics (function, numpy and scipy)
+ 
+## Course Site
+Course site not available by the moment, we are cleaning a bit.
+ 
+

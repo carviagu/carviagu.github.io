@@ -2,8 +2,64 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "welcome",
+    "title": "Welcome",
     "section": "",
-    "text": "Welcome!\nThis is my official page powered with Quarto and GitHub pages.\nNavigate through my courses here!"
+    "text": "Welcome to my official page powered with Quarto and GitHub pages.\nNavigate through the different sections of the site to see more.\n\n\n\nAbout me!\n\nOperational Excellence Analytics Executive at NH Hotel Group’s (Minor Hotels) Business Intelligence Department\nAssociate Professor at CUNEF Universidad\nComputer Engineer with knowledge of Business Management and Master in Data Science."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "about",
+    "section": "",
+    "text": "About me\nSection under construction!"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses",
+    "section": "",
+    "text": "Find here some of the pages of the different courses resources…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR & Python for Business and Management\n\n\n\nprogramming\n\n\nR\n\n\nPython\n\n\nbusiness\n\n\nenglish\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputer Logic\n\n\n\nlogic\n\n\nProlog\n\n\nengineering\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "courses/01-rpythonbusinessmanagement/index.html",
+    "href": "courses/01-rpythonbusinessmanagement/index.html",
+    "title": "R & Python for Business and Management",
+    "section": "",
+    "text": "Course held for at CUNEF Univesidad Bachelor in Business Management second year as part of the Minor in Data Science elective path. The aim of the course is to provide student with the basic concepts of R and Python programming languages focusing on data analytics so they can have the essential skills needed for future subjects related with the field.\n\n\n\nProgramming in R: R and RStudio basics, data types, programming structures, data importing, tidyverse, visualization with ggplot2 and advance programming (functions and purrr library)\nProgramming in Python: Python (Anaconda and Jupyter) basics, data types, programming structures, pandas for data analytics, visualization with mathplotlib, advance topics (function, numpy and scipy)\n\n\n\n\nCourse site not available by the moment, we are cleaning a bit."
+  },
+  {
+    "objectID": "courses/01-rpythonbusinessmanagement/index.html#topics-covered",
+    "href": "courses/01-rpythonbusinessmanagement/index.html#topics-covered",
+    "title": "R & Python for Business and Management",
+    "section": "",
+    "text": "Programming in R: R and RStudio basics, data types, programming structures, data importing, tidyverse, visualization with ggplot2 and advance programming (functions and purrr library)\nProgramming in Python: Python (Anaconda and Jupyter) basics, data types, programming structures, pandas for data analytics, visualization with mathplotlib, advance topics (function, numpy and scipy)"
+  },
+  {
+    "objectID": "courses/01-rpythonbusinessmanagement/index.html#course-site",
+    "href": "courses/01-rpythonbusinessmanagement/index.html#course-site",
+    "title": "R & Python for Business and Management",
+    "section": "",
+    "text": "Course site not available by the moment, we are cleaning a bit."
+  },
+  {
+    "objectID": "courses/02-logica/index.html",
+    "href": "courses/02-logica/index.html",
+    "title": "Computer Logic",
+    "section": "",
+    "text": "Course held at CUNEF Univesidad Bachelor in Computer Science first year. The aim of the course is to provide students with the basic concepts of computer logic to learn how to approach different computing problems.\nEditions: 2022-23, 2023-24\n\n\n\nPropositional Logic: language syntax, sentence formulating, deduction and tableaux solution algorithm.\nFirst-Order Logic: language syntax, sentence formulating, deduction and tableaux solution algorithm.\nProlog Progamming: understanding of logical programming paradigm and learn how to develop simple knowledge base systems with prolog.\n\n\n\n\nCourse site not available by the moment, we are cleaning a bit."
+  },
+  {
+    "objectID": "courses/02-logica/index.html#topics-covered",
+    "href": "courses/02-logica/index.html#topics-covered",
+    "title": "Computer Logic",
+    "section": "",
+    "text": "Propositional Logic: language syntax, sentence formulating, deduction and tableaux solution algorithm.\nFirst-Order Logic: language syntax, sentence formulating, deduction and tableaux solution algorithm.\nProlog Progamming: understanding of logical programming paradigm and learn how to develop simple knowledge base systems with prolog."
+  },
+  {
+    "objectID": "courses/02-logica/index.html#course-site",
+    "href": "courses/02-logica/index.html#course-site",
+    "title": "Computer Logic",
+    "section": "",
+    "text": "Course site not available by the moment, we are cleaning a bit."
   }
 ]

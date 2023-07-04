@@ -1,12 +1,29 @@
 ---
-title: "welcome"
+title: "Welcome"
+toc: false
+page-layout: full
 ---
 
-# Welcome!
+Welcome to my official page powered with Quarto and GitHub pages.
 
-This is my official page powered with Quarto and GitHub pages.
-
-Navigate through my courses here!
+Navigate through the different sections of the site to see more.
 
 
+::: hero-banner
 
+::: {.content-block}
+
+::: {.hero-text}
+
+# About me!
+
+- Operational Excellence Analytics Executive at NH Hotel Group's (Minor Hotels) Business Intelligence Department
+
+- Associate Professor at CUNEF Universidad
+
+- Computer Engineer with knowledge of Business Management and Master in Data Science. 
+
+
+:::
+:::
+:::

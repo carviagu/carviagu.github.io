@@ -1,0 +1,17 @@
+
+
+.hero-banner {
+  position: relative;
+  background: rgb(240,245,249);
+  display: flex;
+  justify-content: center;
+}
+
+.hero-banner h1{
+   color: #39729E;
+  font-size: 1.5rem;
+}
+
+.hero-banner .content-block {
+  z-index: 2;
+}
