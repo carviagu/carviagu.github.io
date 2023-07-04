@@ -1,5 +1,5 @@
 ---
-title: "welcome page"
+title: "welcome"
 ---
 
 # Welcome!
