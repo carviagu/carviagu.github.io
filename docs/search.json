@@ -18,7 +18,7 @@
     "href": "courses.html",
     "title": "Courses",
     "section": "",
-    "text": "Find here some of the pages of the different courses resources…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR & Python for Business and Management\n\n\n\nprogramming\n\n\nR\n\n\nPython\n\n\nbusiness\n\n\nenglish\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputer Logic\n\n\n\nlogic\n\n\nProlog\n\n\nengineering\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Find here some of the pages of the different courses resources…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR & Python for Business and Management\n\n\n\nprogramming\n\n\nR\n\n\nPython\n\n\nbusiness\n\n\nenglish\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputer Logic\n\n\n\nlogic\n\n\nProlog\n\n\nengineering\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Analysis & Information Extraction\n\n\n\nR\n\n\nprogramming\n\n\nanalytics\n\n\nbusiness\n\n\nenglish\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "courses/01-rpythonbusinessmanagement/index.html",
@@ -59,6 +59,27 @@
     "objectID": "courses/02-logica/index.html#course-site",
     "href": "courses/02-logica/index.html#course-site",
     "title": "Computer Logic",
+    "section": "",
+    "text": "Course site not available by the moment, we are cleaning a bit."
+  },
+  {
+    "objectID": "courses/03-informationanalysis/index.html",
+    "href": "courses/03-informationanalysis/index.html",
+    "title": "Data Analysis & Information Extraction",
+    "section": "",
+    "text": "Course held at CUNEF Univesidad Bachelor during the third year of Bachelor in Business Management as an elective course.\nThe course focuses of understanding of the process of data analysis and information exploration using R as the main programming language and following the essential steps in data anlytics project.\n\n\n\nR Programming\nExploratory Data Analysis\nData Wrangling\nModelling\nCommunication\n\n\n\n\nCourse site not available by the moment, we are cleaning a bit."
+  },
+  {
+    "objectID": "courses/03-informationanalysis/index.html#topics-covered",
+    "href": "courses/03-informationanalysis/index.html#topics-covered",
+    "title": "Data Analysis & Information Extraction",
+    "section": "",
+    "text": "R Programming\nExploratory Data Analysis\nData Wrangling\nModelling\nCommunication"
+  },
+  {
+    "objectID": "courses/03-informationanalysis/index.html#course-site",
+    "href": "courses/03-informationanalysis/index.html#course-site",
+    "title": "Data Analysis & Information Extraction",
     "section": "",
     "text": "Course site not available by the moment, we are cleaning a bit."
   }

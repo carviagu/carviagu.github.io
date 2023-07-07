@@ -1,0 +1,28 @@
+---
+title: "Data Analysis & Information Extraction"
+date: "2023-09-01"
+categories: [R, programming, analytics, business, english]
+image: "featured.png"
+---
+
+
+# Overview
+Course held at CUNEF Univesidad Bachelor during the third year of Bachelor in Business Management as an elective course. 
+
+The course focuses of understanding of the process of data analysis and information exploration using R as the main programming language and following the essential steps in data anlytics project. 
+
+## Topics Covered
+ - R Programming 
+ 
+ - Exploratory Data Analysis
+ 
+ - Data Wrangling
+ 
+ - Modelling
+ 
+ - Communication 
+ 
+## Course Site
+Course site not available by the moment, we are cleaning a bit.
+ 
+
