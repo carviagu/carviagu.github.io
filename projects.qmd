@@ -1,0 +1,12 @@
+---
+title: "Projects"
+listing: 
+  contents: "projects/*/index.qmd"
+  sort: date
+  type: default
+  categories: true
+page-layout: full
+title-block-banner: true
+---
+
+Here are some projects, papers and other work done, both personal and academic...

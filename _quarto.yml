@@ -5,6 +5,7 @@ project:
 website:
   title: "Carviagu Site"
   page-footer: 
+    background: light
     left: 2023 Carviagu. Powered with [Quarto](https://quarto.org/) and [GitHub](https://pages.github.com/)
     right:
       - icon: linkedin
@@ -14,10 +15,14 @@ website:
         href: https://github.com/carviagu
         aria-label: Github Repositories
   navbar:
-    background: primary
+    background: light
+    logo: resources/site_logo.png
+    title: false
     left:
       - href: index.qmd
         text: Home
+      - href: projects.qmd
+        text: Projects
       - href: courses.qmd
         text: Courses
     right: 

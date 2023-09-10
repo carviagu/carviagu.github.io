@@ -23,6 +23,6 @@ The course focuses of understanding of the process of data analysis and informat
  - Communication 
  
 ## Course Site
-Course site not available by the moment, we are cleaning a bit.
+You can find some course resources in the page created on purpose for teaching it with Quarto. Find it [here](https://carviagu.github.io/data_analysis_site/)
  
 

@@ -67,7 +67,7 @@
     "href": "courses/03-informationanalysis/index.html",
     "title": "Data Analysis & Information Extraction",
     "section": "",
-    "text": "Course held at CUNEF Univesidad Bachelor during the third year of Bachelor in Business Management as an elective course.\nThe course focuses of understanding of the process of data analysis and information exploration using R as the main programming language and following the essential steps in data anlytics project.\n\n\n\nR Programming\nExploratory Data Analysis\nData Wrangling\nModelling\nCommunication\n\n\n\n\nCourse site not available by the moment, we are cleaning a bit."
+    "text": "Course held at CUNEF Univesidad Bachelor during the third year of Bachelor in Business Management as an elective course.\nThe course focuses of understanding of the process of data analysis and information exploration using R as the main programming language and following the essential steps in data anlytics project.\n\n\n\nR Programming\nExploratory Data Analysis\nData Wrangling\nModelling\nCommunication\n\n\n\n\nYou can find some course resources in the page created on purpose for teaching it with Quarto. Find it here"
   },
   {
     "objectID": "courses/03-informationanalysis/index.html#topics-covered",
@@ -81,6 +81,13 @@
     "href": "courses/03-informationanalysis/index.html#course-site",
     "title": "Data Analysis & Information Extraction",
     "section": "",
-    "text": "Course site not available by the moment, we are cleaning a bit."
+    "text": "You can find some course resources in the page created on purpose for teaching it with Quarto. Find it here"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some projects, papers and other work done, both personal and academic…\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
