@@ -37,7 +37,8 @@ Viñals Guitart, C. (2021). La digitalización de las entidades financieras y lo
 ## Magazine Article
  
 Following the thesis, we do an article related with the research done for the digital magazine *Finance, Markets and Valuation*. You can find it [here](https://journalfmv.com/es/publicados/2021/2/d8e59eb9b0.html).
-mo
+
+
 ::: {.callout-note}
 
 ## About *Finance, Markets and Valuation*
