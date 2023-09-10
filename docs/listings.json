@@ -9,6 +9,9 @@
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/01-tfgade/index.html",
+      "/projects/02-tfginf/index.html"
+    ]
   }
 ]

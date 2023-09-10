@@ -9,6 +9,3 @@ page-layout: full
 title-block-banner: true
 ---
 
-Ooops! Looks we are still making some stuff here... we will get this done soon! 
-
-![](resources/wip.png){text-align="center"}

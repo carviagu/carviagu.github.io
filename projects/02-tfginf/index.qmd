@@ -1,0 +1,33 @@
+---
+title: "Design and Implementation of a Ranking System for ASys"
+date: "2021-09-28"
+categories: [academic, thesis, computer science, java, vuejs, spanish]
+image: "featured.jpeg"
+---
+
+
+Final thesis developed as part of the Bachelor in Computer Science at Universitat Politécnica de Valéncia. 
+
+## Summary
+The aim of the project was developing a ranking system for ASys. A platform developed for providing student different auto-correctable exercises to help them improving their learning process. 
+
+We have develop a ranking and statistical dashboard for providing students with information regarding their progress and compete, motivating and encouraging to do more exercises. 
+
+## Technology
+The project was developed using Java programming language with the use of Spring framework. The platform client was developed using Vue JS, HTML and CSS. 
+
+In addition other techonolgies such as MySQL and MinIO for storing data and resources has been used. 
+
+::: hero-banner
+
+::: {.content-block}
+
+::: {.hero-text}
+
+Viñals Guitart, C. (2021). Diseño y Desarrollo de un Sistema de Ranking para ASys. Universitat Politècnica de València.
+
+[Full Thesis](http://hdl.handle.net/10251/173349)
+
+:::
+:::
+:::

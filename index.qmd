@@ -9,9 +9,6 @@ Welcome to my official page powered with Quarto and GitHub pages.
 Navigate through the different sections of the site to see more.
 
 
-
-
-
 ::: hero-banner
 
 ::: {.content-block}

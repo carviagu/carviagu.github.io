@@ -88,6 +88,62 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Ooops! Looks we are still making some stuff here… we will get this done soon!\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Digitalization of Financial Entities and Payment Systems\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\npaper\n\n\nbusiness\n\n\neconomy\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2021\n\n\n\n\n\n\n  \n\n\n\n\nDesign and Implementation of a Ranking System for ASys\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\ncomputer science\n\n\njava\n\n\nvuejs\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2021\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/01-tfgade/index.html",
+    "href": "projects/01-tfgade/index.html",
+    "title": "Digitalization of Financial Entities and Payment Systems",
+    "section": "",
+    "text": "Final thesis developed as part of the Bachelor in Business Management at Universitat Politécnica de Valéncia."
+  },
+  {
+    "objectID": "projects/01-tfgade/index.html#summary",
+    "href": "projects/01-tfgade/index.html#summary",
+    "title": "Digitalization of Financial Entities and Payment Systems",
+    "section": "Summary",
+    "text": "Summary\nTechnological evolution has changed in many ways our society. Among the different areas where technological advancements have given us improvements and change how we operate, we can highlight the financial sector, where innovation has changed substantially the different processes involved in their services and financial structures. We can focus on the improvements obtained in the payment systems due to the necessity of reliability, security, and immediacy in the process of transfer money between the different agents in the economy.\nThese advancements in the payment systems are the result of different causes, especially the development of new business models based on technology and the intrusion of bigtech companies, increasing their presence in the payment industry. The development of new technologies and their applications in this area are also one of the main reasons behind this revolution. This has forced banks and other financial institutions to accelerate their innovation process to reach new customers and cope with these new companies.\nIn this paper, we will focus our study on the payment systems, how they operate, and the different payment services related. We will identify the main threats and opportunities is facing the payment industry and how financial entities and banks are managing their strategies to deal with these situations"
+  },
+  {
+    "objectID": "projects/01-tfgade/index.html#thesis-structure",
+    "href": "projects/01-tfgade/index.html#thesis-structure",
+    "title": "Digitalization of Financial Entities and Payment Systems",
+    "section": "Thesis Structure",
+    "text": "Thesis Structure\nThe thesis is divided in two parts. First, we look for summarize the different concepts regarding financial entities, banking system and payments in Spain and European Union. Second, we focus on changes occurring at the payment sector, new competitors as bigtech companies, new payment systems as cripto-currencies or digital money. In addition, we make an analysis of the different strategies being followed by the different banks inside the Spanish financial system, making a comparison between their strengths and opportunities to compete and develop at the sector.\nBetween the conclusions, we understand the importance of the payment system for the banking institutions, being cooperation and investment in start-ups the main strategies for compete and develop new business cases. And we emphasize the importance of the technological evolution for this sector, being the new payment systems related with cripto-currencies and digital money key aspects.\n\n\n\nViñals Guitart, C. (2021). La digitalización de las entidades financieras y los sistemas de pago. Universitat Politècnica de València.\nFull Thesis"
+  },
+  {
+    "objectID": "projects/01-tfgade/index.html#magazine-article",
+    "href": "projects/01-tfgade/index.html#magazine-article",
+    "title": "Digitalization of Financial Entities and Payment Systems",
+    "section": "Magazine Article",
+    "text": "Magazine Article\nFollowing the thesis, we do an article related with the research done for the digital magazine Finance, Markets and Valuation. You can find it here. mo ::: {.callout-note}"
+  },
+  {
+    "objectID": "projects/01-tfgade/index.html#about-finance-markets-and-valuation",
+    "href": "projects/01-tfgade/index.html#about-finance-markets-and-valuation",
+    "title": "Digitalization of Financial Entities and Payment Systems",
+    "section": "About Finance, Markets and Valuation",
+    "text": "About Finance, Markets and Valuation\nFinance, Markets and Valuation is a scientific online magazine that publishes each semester different editions that collect articles related with research and analysis about economy, finance, marketing among other fields. It is edited by Asociación para la Investigación para la Formación y la Investigación en Ciencias Económicas y Sociales.\n:::\nThe article focuses on the analysis about payments sector. Making a summary of the content seen about challenges and opportunities found on the sector, while update some of the content of the thesis.\n\n\n\nViñals Guitart, C. (2021). Las entidades financieras españolas ante el reto de la digitalización: El caso de los sistemas de pago. Finance, Markets and Valuation, 7(2), 73–99.\nDOI: https:.org\\10.46503/LKRD4457"
+  },
+  {
+    "objectID": "projects/02-tfginf/index.html",
+    "href": "projects/02-tfginf/index.html",
+    "title": "Design and Implementation of a Ranking System for ASys",
+    "section": "",
+    "text": "Final thesis developed as part of the Bachelor in Computer Science at Universitat Politécnica de Valéncia."
+  },
+  {
+    "objectID": "projects/02-tfginf/index.html#summary",
+    "href": "projects/02-tfginf/index.html#summary",
+    "title": "Design and Implementation of a Ranking System for ASys",
+    "section": "Summary",
+    "text": "Summary\nThe aim of the project was developing a ranking system for ASys. A platform developed for providing student different auto-correctable exercises to help them improving their learning process.\nWe have develop a ranking and statistical dashboard for providing students with information regarding their progress and compete, motivating and encouraging to do more exercises."
+  },
+  {
+    "objectID": "projects/02-tfginf/index.html#technology",
+    "href": "projects/02-tfginf/index.html#technology",
+    "title": "Design and Implementation of a Ranking System for ASys",
+    "section": "Technology",
+    "text": "Technology\nThe project was developed using Java programming language with the use of Spring framework. The platform client was developed using Vue JS, HTML and CSS.\nIn addition other techonolgies such as MySQL and MinIO for storing data and resources has been used.\n\n\n\nViñals Guitart, C. (2021). Diseño y Desarrollo de un Sistema de Ranking para ASys. Universitat Politècnica de València.\nFull Thesis"
   }
 ]
