@@ -1,29 +1,25 @@
 ---
-title: "Welcome"
+title: "Carlos Viñals Guitart"
 toc: false
-page-layout: full
+image: resources/own_foto.JPG
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: linkedin 
+      text: LinkedIn
+      href: https://www.linkedin.com/in/carviagu/
+    - icon: github 
+      text: GitHub
+      href: https://github.com/carviagu
 ---
 
-Welcome to my official page powered with Quarto and GitHub pages.
+## Welcome! 
 
-Navigate through the different sections of the site to see more.
+Welcome to my personal page powered with Quarto and Github Pages. 
 
+My name is Carlos, I am a data analyst currently working as Business Intelligence Operational Excellence Analyst at NH Hotel Group part of Minor Hotels. I also do some teaching as an associate professor at CUNEF Universidad. 
 
-::: hero-banner
+Very interested in data analytics and engineering, and continuously learning new things to improve current projects and create new ones. 
 
-::: {.content-block}
-
-::: {.hero-text}
-
-# About me!
-
-- Operational Excellence Analytics Executive at NH Hotel Group's (Minor Hotels) Business Intelligence Area
-
-- Associate Professor at CUNEF Universidad
-
-- Computer Engineer with knowledge of Business Management and Master in Data Science. 
-
-
-:::
-:::
-:::

@@ -39,4 +39,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    page-layout: full
   
