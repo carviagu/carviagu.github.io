@@ -10,8 +10,9 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/01-tfgade/index.html",
+      "/projects/00-discordbot/index.html",
       "/projects/02-tfginf/index.html",
+      "/projects/01-tfgade/index.html",
       "/projects/03-canadiancaraccidents/index.html"
     ]
   }
