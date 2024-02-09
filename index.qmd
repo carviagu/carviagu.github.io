@@ -1,7 +1,7 @@
 ---
 title: "Carlos Viñals Guitart"
 toc: false
-image: resources/own_foto.JPG
+image: resources/foto_2.jpg
 about: 
   template: trestles
   image-shape: round

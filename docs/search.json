@@ -179,13 +179,13 @@
     "href": "projects/03-canadiancaraccidents/index.html#api",
     "title": "Predicting Car Accidents Severity",
     "section": "API",
-    "text": "API\nFor second part, we decide to create an API with our model so it can be used for making predictions and being called. For doing this we use flask framework, the API was implemented with a full logging system for record errors, calls and have full historic of tasks done. All was built inside a docker container to facilitate deployment.\nYou can the API code and all work done in the repository (Spanish)"
+    "text": "API\nFor second part, we decide to create an API with our model so it can be used for making predictions and being called. For doing this we use flask framework, the API was implemented with a full logging system for record errors, calls and have full historic of tasks done. All was built inside a docker container to facilitate deployment.\nYou can find the API code and all work done in the repository (Spanish)"
   },
   {
     "objectID": "projects/00-discordbot/index.html",
     "href": "projects/00-discordbot/index.html",
     "title": "Creating a Discord bot for a personal Server",
     "section": "",
-    "text": "Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop…\n\nRequisites\nThis bot has been built using javascript and node. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.\n\n\nDesign\nThe bot has been design with different modules, each module with have different related functions. This way we can separate the different services of the bot and have it in separate developments.\nThe bot project will be set as follows…"
+    "text": "Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop…\n\nRequisites\nThis bot has been built using javascript and node. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.\n\n\nCreating the app"
   }
 ]
