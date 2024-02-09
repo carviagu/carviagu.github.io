@@ -1,0 +1,15 @@
+---
+title: "Creating a Discord bot for a personal Server"
+date: "2021-07-01"
+categories: [javascript, bot, discord]
+image: "featured.jpeg"
+---
+
+Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop...
+
+# Requisites
+This bot has been built using `javascript` and `node`. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.
+
+
+# Creating the app
+

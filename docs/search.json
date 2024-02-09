@@ -88,7 +88,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Creating a Discord bot for a personal Server\n\n\n\n\n\n\n\njavascript\n\n\nbot\n\n\ndiscord\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2021\n\n\n\n\n\n\n  \n\n\n\n\nDesign and Implementation of a Ranking System for ASys\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\ncomputer science\n\n\njava\n\n\nvuejs\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2021\n\n\n\n\n\n\n  \n\n\n\n\nDigitalization of Financial Entities and Payment Systems\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\npaper\n\n\nbusiness\n\n\neconomy\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2021\n\n\n\n\n\n\n  \n\n\n\n\nPredicting Car Accidents Severity\n\n\n\n\n\n\n\nacademic\n\n\npython\n\n\nmachine learning\n\n\ndata\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPredicting Car Accidents Severity\n\n\n\n\n\n\n\nacademic\n\n\npython\n\n\nmachine learning\n\n\ndata\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2022\n\n\n\n\n\n\n  \n\n\n\n\nDesign and Implementation of a Ranking System for ASys\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\ncomputer science\n\n\njava\n\n\nvuejs\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2021\n\n\n\n\n\n\n  \n\n\n\n\nDigitalization of Financial Entities and Payment Systems\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\npaper\n\n\nbusiness\n\n\neconomy\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2021\n\n\n\n\n\n\n  \n\n\n\n\nCreating a Discord bot for a personal Server\n\n\n\n\n\n\n\njavascript\n\n\nbot\n\n\ndiscord\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/01-tfgade/index.html",
@@ -180,5 +180,12 @@
     "title": "Predicting Car Accidents Severity",
     "section": "API",
     "text": "API\nFor second part, we decide to create an API with our model so it can be used for making predictions and being called. For doing this we use flask framework, the API was implemented with a full logging system for record errors, calls and have full historic of tasks done. All was built inside a docker container to facilitate deployment.\nYou can the API code and all work done in the repository (Spanish)"
+  },
+  {
+    "objectID": "projects/00-discordbot/index.html",
+    "href": "projects/00-discordbot/index.html",
+    "title": "Creating a Discord bot for a personal Server",
+    "section": "",
+    "text": "Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop…\n\nRequisites\nThis bot has been built using javascript and node. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.\n\n\nDesign\nThe bot has been design with different modules, each module with have different related functions. This way we can separate the different services of the bot and have it in separate developments.\nThe bot project will be set as follows…"
   }
 ]
