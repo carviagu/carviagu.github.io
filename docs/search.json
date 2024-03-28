@@ -9,14 +9,14 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "about",
+    "title": "About",
     "section": "",
-    "text": "About me\nSection under construction!"
+    "text": "Master in Data Science\nCUNEF Universidad | Sept. 2021 - July 2022\nBachelor in Business Management + Bachelor in Computer Science\nUniversitat Politècnica de València | Sept. 2016 - July 2021"
   },
   {
     "objectID": "courses.html",
     "href": "courses.html",
-    "title": "Courses",
+    "title": "Teaching",
     "section": "",
     "text": "Find here some of the pages of the different courses resources…\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR & Python for Business and Management\n\n\n\nprogramming\n\n\nR\n\n\nPython\n\n\nbusiness\n\n\nenglish\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComputer Logic\n\n\n\nlogic\n\n\nProlog\n\n\nengineering\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Analysis & Information Extraction\n\n\n\nR\n\n\nprogramming\n\n\nanalytics\n\n\nbusiness\n\n\nenglish\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
@@ -187,5 +187,26 @@
     "title": "Creating a Discord bot for a personal Server",
     "section": "",
     "text": "Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop…\n\nRequisites\nThis bot has been built using javascript and node. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.\n\n\nCreating the app"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Master in Data Science\nCUNEF Universidad | Sept. 2021 - July 2022\nBachelor in Business Management + Bachelor in Computer Science\nUniversitat Politècnica de València | Sept. 2016 - July 2021"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nData Analyst - Operational Excellence Analytics Executive\nNH Hotel Group part of MINOR Hotels | Jan. 2023 - Present\nData Analyst Intern\nNH Hotel Group part of MINOR Hotels | Jan. 2022 - Dec. 2022\nUnit Testing and Code Quality Programmer Intern\nEveris (NTT Data) | Nov. 2020 - Feb. 2021"
+  },
+  {
+    "objectID": "about.html#others",
+    "href": "about.html#others",
+    "title": "About",
+    "section": "Others",
+    "text": "Others\nAssociate Professor\nCUNEF Universidad | Sept. 2022 - Present"
   }
 ]

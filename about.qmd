@@ -1,6 +1,27 @@
 ---
-title: "about"
+title: "About"
 ---
 
-# About me
-Section under construction!
+## Education
+
+| **Master in Data Science**
+| CUNEF Universidad | Sept. 2021 - July 2022
+
+| **Bachelor in Business Management + Bachelor in Computer Science**
+| Universitat Politècnica de València | Sept. 2016 - July 2021
+
+## Experience
+
+| **Data Analyst - Operational Excellence Analytics Executive**
+| NH Hotel Group part of MINOR Hotels | Jan. 2023 - Present
+
+| **Data Analyst Intern**
+| NH Hotel Group part of MINOR Hotels | Jan. 2022 - Dec. 2022
+
+| **Unit Testing and Code Quality Programmer Intern**
+| Everis (NTT Data) | Nov. 2020 - Feb. 2021
+
+## Others
+
+| **Associate Professor**
+| CUNEF Universidad | Sept. 2022 - Present

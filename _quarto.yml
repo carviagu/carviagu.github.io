@@ -6,7 +6,7 @@ website:
   title: "Carviagu Site"
   page-footer: 
     background: light
-    left: 2023 Carviagu. Powered with [Quarto](https://quarto.org/) and [GitHub](https://pages.github.com/)
+    left: 2024 Carviagu. Powered with [Quarto](https://quarto.org/) and [GitHub](https://pages.github.com/)
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/carviagu/
@@ -21,6 +21,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: projects.qmd
         text: Projects
       - href: courses.qmd

@@ -1,5 +1,5 @@
 ---
-title: "Courses"
+title: "Teaching"
 listing: 
   contents: "courses/*/index.qmd"
   sort: date
