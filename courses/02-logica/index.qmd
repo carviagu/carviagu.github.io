@@ -20,6 +20,6 @@ Editions: 2022-23, 2023-24
  - Prolog Progamming: understanding of logical programming paradigm and learn how to develop simple knowledge base systems with prolog. 
  
 ## Course Site
-Course site not available by the moment, we are cleaning a bit.
+You can find [here](https://carviagu.github.io/prolog_practices_site/) the material regarding the course practices for Prolog in spanish.
  
 
