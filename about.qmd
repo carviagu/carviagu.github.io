@@ -13,10 +13,10 @@ title: "About"
 ## Experience
 
 | **Data Analyst - Operational Excellence Analytics Executive**
-| NH Hotel Group part of MINOR Hotels | Jan. 2023 - Present
+| MINOR Hotels Europe & Americas | Jan. 2023 - Present
 
 | **Data Analyst Intern**
-| NH Hotel Group part of MINOR Hotels | Jan. 2022 - Dec. 2022
+| MINOR Hotels Europe & Americas | Jan. 2022 - Dec. 2022
 
 | **Unit Testing and Code Quality Programmer Intern**
 | Everis (NTT Data) | Nov. 2020 - Feb. 2021

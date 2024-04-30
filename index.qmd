@@ -19,7 +19,7 @@ about:
 
 Welcome to my personal page powered with Quarto and Github Pages. 
 
-My name is Carlos, I am a data analyst currently working as Business Intelligence Operational Excellence Analyst at NH Hotel Group part of Minor Hotels. I also do some teaching as an associate professor at CUNEF Universidad. 
+My name is Carlos, I am a data analyst currently working as Business Intelligence Operational Excellence Analyst at Minor Hotels Europe & Americas. I also do some teaching as an associate professor at CUNEF Universidad. 
 
 Very interested in data analytics and engineering, and continuously learning new things to improve current projects and create new ones. 
 
