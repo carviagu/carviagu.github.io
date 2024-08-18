@@ -88,7 +88,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPredicting Car Accidents Severity\n\n\n\n\n\n\n\nacademic\n\n\npython\n\n\nmachine learning\n\n\ndata\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2022\n\n\n\n\n\n\n  \n\n\n\n\nDesign and Implementation of a Ranking System for ASys\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\ncomputer science\n\n\njava\n\n\nvuejs\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2021\n\n\n\n\n\n\n  \n\n\n\n\nDigitalization of Financial Entities and Payment Systems\n\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\npaper\n\n\nbusiness\n\n\neconomy\n\n\nspanish\n\n\n\n\n\n\n\n\n\n\n\nSep 9, 2021\n\n\n\n\n\n\n  \n\n\n\n\nCreating a Discord bot for a personal Server\n\n\n\n\n\n\n\njavascript\n\n\nbot\n\n\ndiscord\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2021\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPredicting Car Accidents Severity\n\n\n\n\n\n\nacademic\n\n\npython\n\n\nmachine learning\n\n\ndata\n\n\n\n\n\n\n\n\n\nJan 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nDesign and Implementation of a Ranking System for ASys\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\ncomputer science\n\n\njava\n\n\nvuejs\n\n\nspanish\n\n\n\n\n\n\n\n\n\nSep 28, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nDigitalization of Financial Entities and Payment Systems\n\n\n\n\n\n\nacademic\n\n\nthesis\n\n\npaper\n\n\nbusiness\n\n\neconomy\n\n\nspanish\n\n\n\n\n\n\n\n\n\nSep 9, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a Discord bot for a personal Server\n\n\n\n\n\n\njavascript\n\n\nbot\n\n\ndiscord\n\n\n\n\n\n\n\n\n\nJul 1, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/01-tfgade/index.html",
@@ -186,7 +186,7 @@
     "href": "projects/00-discordbot/index.html",
     "title": "Creating a Discord bot for a personal Server",
     "section": "",
-    "text": "Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop…\n\nRequisites\nThis bot has been built using javascript and node. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.\n\n\nCreating the app"
+    "text": "Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features we developed…"
   },
   {
     "objectID": "about.html#education",
@@ -208,5 +208,40 @@
     "title": "About",
     "section": "Others",
     "text": "Others\nAssociate Professor\nCUNEF Universidad | Sept. 2022 - Present"
+  },
+  {
+    "objectID": "projects/00-discordbot/index.html#some-notes-for-creating-your-app",
+    "href": "projects/00-discordbot/index.html#some-notes-for-creating-your-app",
+    "title": "Creating a Discord bot for a personal Server",
+    "section": "Some notes for creating your App",
+    "text": "Some notes for creating your App\nFor creating your app use the provided link above, select create App and…\n\nProvide a name for your App. Take into account that this will the name that will be displayed on the Discord App and server.\nOnce created you will be redirected to the App configuration service, on the main page you will be able to change the name, give a description and provide an icon for the App.\nFor making the Bot you should go to Bot section on the App configuration. Here you can provide a Bot icon (like the user avatar on Discord) and a Bot name (the one will be displayed on Discord).\n(Optional) Review, in the Bot section additional configurations you can do. For example, in our case our Bot is for private use, so we unchecked the Public Bot option."
+  },
+  {
+    "objectID": "projects/00-discordbot/index.html#securing-your-bot-token",
+    "href": "projects/00-discordbot/index.html#securing-your-bot-token",
+    "title": "Creating a Discord bot for a personal Server",
+    "section": "Securing your Bot Token",
+    "text": "Securing your Bot Token\nThe Bot Token is the key code that will be used for connect your designed logic with the Discord App that will be working on the Discord service.\nYou can find this code on the Bot section in your Discord Developer page. Take into account that this code is only displayed once, if you want to recover it again Discord will create a new one making you replacing it by the older in your code.\nWhen working with tokens it is useful to use a safe way of keeping them without risking being published. In this case we use the environment practice:\n\nCreate a file called .env\nOpen the .envfile as it was a txt file (you can use a simple code editor like visual studio for example), and type the following text:\n\nDISCORD_TOKEN=YOUR_TOKEN\nReplace YOUR_TOKEN with the token from the Bot. The .env file contains a global variable called DISCORD_TOKEN with the token from the bot.\nThis file should never be shared. We will recommend include in your gitignore file the .env file so it is not published when you are uploading your code. This way we avoid writing the token in the same source code of the bot."
+  },
+  {
+    "objectID": "projects/00-discordbot/index.html#create-your-project-folder",
+    "href": "projects/00-discordbot/index.html#create-your-project-folder",
+    "title": "Creating a Discord bot for a personal Server",
+    "section": "Create your project folder",
+    "text": "Create your project folder\nWe have created a project folder to store all the code and resources we will use, also we have initated a git control version in the folder. You can set up your project as you want."
+  },
+  {
+    "objectID": "projects/00-discordbot/index.html#your-bot-source-code",
+    "href": "projects/00-discordbot/index.html#your-bot-source-code",
+    "title": "Creating a Discord bot for a personal Server",
+    "section": "Your Bot source code",
+    "text": "Your Bot source code\nNow that we have our bot created in the Discord Developer portal and our token ready, we can start making the source code logics.\nFirst, we will initiate the bot and load all resources. For doing that we follow the API code procedures. Here the source code for initiate your Bot, consider we have created a file called main.js:\n// Run dotenv\nrequire('dotenv').config();\n\n// Prepare global variables and depencies \nconst Discord = require('discord.js');\nconst client = new Discord.Client();\nconst prefix = '.';\n\n// Here will be add bot functionalities\n\n// Bot login access\nclient.login(process.env.DISCORD_TOKEN);\nSome notes about the code…\n\nFirst, we add the package dotenv that will recover the global variables with the token we will use when starting the Bot.\nWe create the Discord API package and create the Client instance for initiating the Bot.\nWe include a variable for declaring the prefix clause, this will be used for the Bot when detecting the messages on the server he should be listen to. All messages starting with the given prefix (. in this case) he will review all logics to answer.\nThere is a missing piece of code with the Bot logics, we will work in them in the next step.\nAt the end, we make the login with the token and the bot will be running."
+  },
+  {
+    "objectID": "projects/00-discordbot/index.html#creating-bot-functionalities.",
+    "href": "projects/00-discordbot/index.html#creating-bot-functionalities.",
+    "title": "Creating a Discord bot for a personal Server",
+    "section": "Creating Bot functionalities.",
+    "text": "Creating Bot functionalities.\nNow we need to give our Bot some functionalities. For doing that we are going to create a service that creates a Poll in the chat when calling the Bot.\nFirst, we need to create a listener so the bot can listen to the messages being sent on the chat, and then check if the message is for him and return the corresponding answer. Here the code…\nclient.on('message', msg =&gt; {\n    if (!msg.content.startsWith(prefix)) return; // if message doesn't start with . do nothing\n\n    const commandBody = msg.content.slice(prefix.length);\n    const args = commandBody.split(' '); // clean message parts\n    var Embed = new Discord.MessageEmbed();\n    \n    try {\n\n        switch(args[0]) {\n        \n        \n        case 'poll': // user will type .poll poll_title\n          let msgArgs = args.slice(1).join(\" \");\n\n          Embed = new Discord.MessageEmbed()\n                .setColor('#FF0000')\n                .setTitle(msgArgs)\n                .setDescription('Yes👍 o No👎');\n\n          msg.channel.send(Embed).then(messageReaction =&gt; {\n          messageReaction.react(\"👍\");\n          messageReaction.react(\"👎\");\n          setTimeout(() =&gt; msg.delete(), 1000);\n          });\n          return; // Stop evaluating \n        \n        default: // If there is no command return a generic message\n\n                Embed = new Discord.MessageEmbed()\n                .setTitle(\"¡Ooops!\")\n                .setDescription(\"The required command doesn't exists.\")\n                .setColor('#FF0000')\n                .setFooter(client.user.username, client.user.avatarURL)\n                msg.channel.send(Embed);\n        }\n    }\nSmall explanation of the code:\n\nWhat we do here is add a listener with .on attribute to any message from the server or chat with message event.\nOnce the message is detected, the bot checks that it starts with a ., if is the case we clean the message parts.\nFinally, the bot checks with a switch if is one of the expected requests. In each case we add the text of the expected command (.poll for example).\n\nIf the command is in the designed ones, the code will go inside and do the given task. See that we use a return; sentence at the end of the case, so the program stops evaluating rest of cases if he founds the correct one.\n\nOtherwise, it will return a default message telling the user, that the given command doesn’t exists.\n\n\nRemember, that we include this code before the login sentence of the bot."
   }
 ]

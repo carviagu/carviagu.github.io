@@ -5,11 +5,160 @@ categories: [javascript, bot, discord]
 image: "featured.jpeg"
 ---
 
-Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features I develop...
+Bots in Discord are so useful for provide additional features, automate tasks and more interactive the experience in your servers. As we and my friends need some features to improve our server I built an small bot to do some of them. Here is small glimpse of the process and main features we developed...
 
 # Requisites
 This bot has been built using `javascript` and `node`. It works on my personal computer not being uploaded into a server for having if available when I am not with my computer on. Also I have used the Discord API for javascript and create a developer account on Discord so you can have secret keys for incorporate it to your server.
 
 
+You can view the full documentation provided by Discord for using their API and creating the App, that is what they call the bot program that will run your features. [Here the API tutorial.](https://discord.com/developers/docs/quick-start/getting-started)
+
+## Some notes for creating your App
+For creating your app use the provided link above, select create App and...
+
+1. Provide a name for your App. Take into account that this will the name that will be displayed on the Discord App and server. 
+
+2. Once created you will be redirected to the App configuration service, on the main page you will be able to change the name, give a description and provide an icon for the App.
+
+3. For making the Bot you should go to Bot section on the App configuration. Here you can provide a Bot icon (like the user avatar on Discord) and a Bot name (the one will be displayed on Discord). 
+
+4. (Optional) Review, in the Bot section additional configurations you can do. For example, in our case our Bot is for private use, so we unchecked the Public Bot option.
+
+
 # Creating the app
 
+## Create your project folder
+We have created a project folder to store all the code and resources we will use, also we have initated a git control version in the folder. You can set up your project as you want.
+
+## Securing your Bot Token
+The Bot Token is the key code that will be used for connect your designed logic with the Discord App that will be working on the Discord service. 
+
+You can find this code on the Bot section in your Discord Developer page. Take into account that this code is only displayed once, if you want to recover it again Discord will create a new one making you replacing it by the older in your code. 
+
+When working with tokens it is useful to use a safe way of keeping them without risking being published. In this case we use the environment practice:
+
+1. Create a file called `.env`
+2. Open the `.env`file as it was a txt file (you can use a simple code editor like visual studio for example), and type the following text:
+
+```
+DISCORD_TOKEN=YOUR_TOKEN
+```
+
+Replace YOUR_TOKEN with the token from the Bot. The `.env` file contains a global variable called `DISCORD_TOKEN` with the token from the bot. 
+
+This file should never be shared. We will recommend include in your gitignore file the `.env` file so it is not published when you are uploading your code. This way we avoid writing the token in the same source code of the bot. 
+
+## Your Bot source code
+
+Now that we have our bot created in the Discord Developer portal and our token ready, we can start making the source code logics.
+
+First, we will initiate the bot and load all resources. For doing that we follow the API code procedures. Here the source code for initiate your Bot, consider we have created a file called `main.js`:
+
+```js
+// Run dotenv
+require('dotenv').config();
+
+// Prepare global variables and depencies 
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const prefix = '.';
+
+// Here will be add bot functionalities
+
+// Bot login access
+client.login(process.env.DISCORD_TOKEN);
+```
+
+Some notes about the code...
+
+1. First, we add the package `dotenv` that will recover the global variables with the token we will use when starting the Bot. 
+
+2. We create the Discord API package and create the Client instance for initiating the Bot.
+
+3. We include a variable for declaring the prefix clause, this will be used for the Bot when detecting the messages on the server he should be listen to. All messages starting with the given prefix (`.` in this case) he will review all logics to answer.
+
+4. There is a missing piece of code with the Bot logics, we will work in them in the next step. 
+
+5. At the end, we make the login with the token and the bot will be running. 
+
+## Creating Bot functionalities. 
+Now we need to give our Bot some functionalities. For doing that we are going to create a service that creates a Poll in the chat when calling the Bot. 
+
+First, we need to create a listener so the bot can listen to the messages being sent on the chat, and then check if the message is for him and return the corresponding answer. 
+Here the code...
+
+```js
+client.on('message', msg => {
+    if (!msg.content.startsWith(prefix)) return; // if message doesn't start with . do nothing
+
+    const commandBody = msg.content.slice(prefix.length);
+    const args = commandBody.split(' '); // clean message parts
+    var Embed = new Discord.MessageEmbed();
+    
+    try {
+
+        switch(args[0]) {
+        
+        
+        case 'poll': // user will type .poll poll_title
+          let msgArgs = args.slice(1).join(" ");
+
+          Embed = new Discord.MessageEmbed()
+                .setColor('#FF0000')
+                .setTitle(msgArgs)
+                .setDescription('Yes👍 o No👎');
+
+          msg.channel.send(Embed).then(messageReaction => {
+          messageReaction.react("👍");
+          messageReaction.react("👎");
+          setTimeout(() => msg.delete(), 1000);
+          });
+          return; // Stop evaluating 
+        
+        default: // If there is no command return a generic message
+
+                Embed = new Discord.MessageEmbed()
+                .setTitle("¡Ooops!")
+                .setDescription("The required command doesn't exists.")
+                .setColor('#FF0000')
+                .setFooter(client.user.username, client.user.avatarURL)
+                msg.channel.send(Embed);
+        }
+    }
+```
+
+Small explanation of the code:
+
+1. What we do here is add a listener with `.on` attribute to any message from the server or chat with `message` event. 
+
+2. Once the message is detected, the bot checks that it starts with a `.`, if is the case we clean the message parts.
+
+3. Finally, the bot checks with a `switch` if is one of the expected requests. In each case we add the text of the expected command (`.poll` for example). 
+    * If the command is in the designed ones, the code will go inside and do the given task. See that we use a `return;` sentence at the end of the case, so the program stops evaluating rest of cases if he founds the correct one.  
+    * Otherwise, it will return a default message telling the user, that the given command doesn't exists. 
+    
+**Remember, that we include this code before the login sentence of the bot.**  
+
+
+# Add the Bot to your server and run it. 
+
+For adding your bot to your server you will need to return to the Discord Developer portal for your App. And check on OAuth2 section the permissions settings:
+
+1. First select OAuth2 URL Generator the options bot and applications.commands
+
+2. Then choose all the bot specific options, we normally allow everything related with Text Permissions and in General Permissions we allow Manage Server, Roles and Channels. But you can modify this options depending on the bot options. Consider that for allowing the Bot to do Polls there is an specific Text Permissions. 
+
+3. Then copy the auto-generated URL and paste it on your browser. Discord will show you the page for deciding in which server to add it and allowing permissions.
+
+Once the bot has been added, you will see that it appears as disconnected. For activating the bot you need to open a terminal (bash) on your computer, and then execute on the same folder were your main.js file is located the command:
+
+```sh
+node main.js
+```
+You will see that it starts running, and if you return to the server the Bot appears as connected. Now you can play with it and try the commands. 
+
+The terminal should be activated at all times, otherwise the bot will disconnect. 
+
+# See the code and advance functionalities.
+
+You can see the final bot we designed with more functionalities and more features in my GitHub Repository [here](https://github.com/carviagu/theWbot). 
