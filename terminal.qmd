@@ -1,0 +1,21 @@
+
+```{=html}
+<!--- Reference for JQuery console https://terminal.jcubic.pl/api_reference.php#:~:text=clear()%20—%20clear%20terminal. -->
+<div height="350px">
+<div style="
+font-size:15px;
+padding: 1px 1px 1px 5px;
+background-color:#ECECEC; 
+border-radius:5px 5px 0px 0px;
+border-bottom-color: black;
+width:150px;
+">Site Terminal</div>
+<div style=" height:400px;
+background-color:#ECECEC; 
+border-radius:0px 5px 5px 5px;
+">
+<iframe src="terminal/terminal.html" title="Site Terminal" style="width:100%; height:100%; border:2px solid #ECECEC; border-radius: 0px 5px 0px 0px;"></iframe>
+</div>
+</div>
+
+```

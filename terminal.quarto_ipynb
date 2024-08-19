@@ -1,0 +1,42 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "```{html}\n",
+        "<html>\n",
+        "<head>\n",
+        "<script src=\"https://cdn.jsdelivr.net/npm/jquery\"></script>\n",
+        "<script src=\"https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js\"></script>\n",
+        "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css\"/>\n",
+        "</head>\n",
+        "<body>\n",
+        "<script>\n",
+        "$('body').terminal({\n",
+        "    hello: function(what) {\n",
+        "        this.echo('Hello, ' + what +\n",
+        "                  '. Wellcome to this terminal.');\n",
+        "    }\n",
+        "}, {\n",
+        "    greetings: 'My First Web Terminal'\n",
+        "});\n",
+        "</script>\n",
+        "</body>\n",
+        "</html>\n",
+        "```"
+      ],
+      "id": "848089f8"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/carviagu/Library/Python/3.9/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

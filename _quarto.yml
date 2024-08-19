@@ -27,6 +27,8 @@ website:
         text: Projects
       - href: courses.qmd
         text: Teaching
+      - href: terminal.qmd
+        text: Terminal
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/carviagu/

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
+<body>
+  <script>
+$('body').terminal({
+    help: function() {
+      this.echo('')
+    },
+    hello: function(what='') {
+      if (what == '') {
+        this.echo('Hello. Wellcome to this terminal. Press help for more info.');
+      } else if (what == 'there') {
+        this.echo('General Kenobi!');
+      } else {
+        this.echo('Hello, ' + what +
+                  '. Wellcome to this terminal.');
+      }
+    },
+    echo: function(...args) {
+        this.echo(args.join(' '));
+    },
+    linkedin: function() {
+      this.echo('Find me on... https://www.linkedin.com/in/carviagu/')
+    },
+    run: function(program='') {
+        if (program == '') {
+          this.echo('Specify an order or program to execute');
+        } else if (program == '') {
+          
+        }
+    },
+    exit: function() {
+      this.clear();
+      this.echo('TERMINAL CONSOLE, VERSION 3.4.0 "AMANDA" \nCARVIAGU SITE \n\nCONNECTION STABLISHED \n\nWelcome to the site terminal! Type help to know available commands...\n');
+    }
+  
+}, {
+    greetings: 'TERMINAL CONSOLE, VERSION 3.4.0 "AMANDA" \nCARVIAGU SITE \n\nCONNECTION STABLISHED \n\nWelcome to the site terminal! Type help to know available commands...\n',
+    checkArity: false
+});
+</script>
+</body>
+</html>
